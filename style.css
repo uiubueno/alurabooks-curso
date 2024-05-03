@@ -1,4 +1,5 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
 
 :root {
   --cor-de-fundo: #ebecee;
@@ -9,8 +10,12 @@
     rgba(0, 47, 82, 1) 19%,
     rgba(50, 101, 137, 1) 100%
   );
+  --fonte-principal: "Poppins";
 }
 
 body {
   background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
 }
