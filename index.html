@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -48,13 +54,45 @@
             alt="Logo da Alurabooks"
             class="container__imagem"
         /></a>
+        <h1 class="container__titulo">
+          <b class="container__titulo--negrito">Alura</b>Books
+        </h1>
       </div>
+      <ul class="opções">
+        <input type="checkbox" id="opções-menu" class="opções__botão" />
+        <label for="opções-menu">
+          <li class="opções__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design & Ux</a>
+          </li>
+        </ul>
+        <li class="opções__item">
+          <a href="#" class="opções__link">Favoritos</a>
+        </li>
+        <li class="opções__item">
+          <a href="#" class="opções__link">Minha estante</a>
+        </li>
+      </ul>
       <div class="container">
         <a href="#"
           ><img
             src="./img/Favoritos.svg"
             alt="Meus favoritos"
-            class="container__imagem"
+            class="container__imagem container__imagem-transparente"
         /></a>
         <a href="#"
           ><img
@@ -178,10 +216,12 @@
       </ul>
     </section>
     <section class="contato">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+      <div class="contato__descrição">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+      </div>
       <input
         type="email"
         placeholder="Cadastre seu e-mail"
