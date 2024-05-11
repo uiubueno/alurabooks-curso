@@ -96,6 +96,11 @@
     width: 40%;
     margin: 2em auto;
   }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1728px) {
@@ -128,5 +133,10 @@
   .card {
     width: 60%;
     margin-left: 3em;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
   }
 }
